@@ -1,0 +1,805 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* font box starts */
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=6fd1c049-3608-4373-8608-8225ff58ecba");
+@font-face{
+font-family:"HelveticaNeueW01-45Ligh";
+src:url("Fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix");
+src:url("Fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix") format("eot"),url("Fonts/530dee22-e3c1-4e9f-bf62-c31d510d9656.woff") format("woff"),url("Fonts/688ab72b-4deb-4e15-a088-89166978d469.ttf") format("truetype"),url("Fonts/7816f72f-f47e-4715-8cd7-960e3723846a.svg#7816f72f-f47e-4715-8cd7-960e3723846a") format("svg");
+}
+@font-face{
+font-family:"HelveticaNeueW01-55Roma";
+src:url("Fonts/b7693a83-b861-4aa6-85e0-9ecf676bc4d6.eot?#iefix");
+src:url("Fonts/b7693a83-b861-4aa6-85e0-9ecf676bc4d6.eot?#iefix") format("eot"),url("Fonts/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff") format("woff"),url("Fonts/b0ffdcf0-26da-47fd-8485-20e4a40d4b7d.ttf") format("truetype"),url("Fonts/da09f1f1-062a-45af-86e1-2bbdb3dd94f9.svg#da09f1f1-062a-45af-86e1-2bbdb3dd94f9") format("svg");
+}
+@font-face{
+font-family:"HelveticaNeueW01-75Bold";
+src:url("Fonts/c07fef9e-a934-42d7-92ad-69205f2b8a00.eot?#iefix");
+src:url("Fonts/c07fef9e-a934-42d7-92ad-69205f2b8a00.eot?#iefix") format("eot"),url("Fonts/14ff6081-326d-4dae-b778-d7afa66166fc.woff") format("woff"),url("Fonts/8fda1e47-19be-46c7-8d83-8d4fb35572f0.ttf") format("truetype"),url("Fonts/f751c8ae-1057-46d9-8d74-62592e002568.svg#f751c8ae-1057-46d9-8d74-62592e002568") format("svg");
+}
+@font-face{
+font-family:"HelveticaNeueW01-95Blac";
+src:url("Fonts/b26ccb58-f2e3-47aa-a83a-02861bf54862.eot?#iefix");
+src:url("Fonts/b26ccb58-f2e3-47aa-a83a-02861bf54862.eot?#iefix") format("eot"),url("Fonts/74649485-cd74-443e-9d54-331ccd448900.woff") format("woff"),url("Fonts/feb77f4f-9e6b-4f88-909a-66199fd402ed.ttf") format("truetype"),url("Fonts/2e490192-e531-4236-9c55-90daaad4a34e.svg#2e490192-e531-4236-9c55-90daaad4a34e") format("svg");
+}
+/* font box ends */
+
+/* main styles starts */
+body {
+	background: url(../images/loreal_landing_m_topgrad.jpg) top left repeat-x #000000;
+	 animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+	/* fade in starts */   
+	@keyframes fadein { 
+		from { opacity: 0 }
+		to { opacity: 1 }
+	}
+	
+	@-moz-keyframes fadein { 
+		/* ===[ Firefox ]=== */
+		from { opacity: 0 }
+		to { opacity: 1 }
+	}
+	
+	@-webkit-keyframes fadein {
+		/* ===[ Safari and Chrome ]=== */
+		from { opacity: 0 }
+		to { opacity: 1 }
+	}
+	
+	@-o-keyframes fadein { 
+		/* ===[ Opera ]=== */
+		from { opacity: 0 }
+		to { opacity: 1 }
+	}
+	/* fade in ends */
+/* main styles ends */
+
+/* landing starts */
+#landing {
+	background: url(../images/loreal_landing_m_main.jpg) bottom left no-repeat;
+	padding: 31px 0px 0px 0px;
+	height: 1196px;
+}
+#landing .win {
+	background: url(../images/loreal_landing_m_win.gif) top center no-repeat;
+	background-size:contain;
+	height: 148px;
+}
+#landing .textm {
+	background: url(../images/loreal_landing_m_text.gif) top center no-repeat;
+	background-size:contain;
+	height: 210px;
+}
+#landing div input[type=submit] {
+	margin: 30px auto;
+	padding: 0px;
+	border: none;
+	border-radius: 0px;
+	background: url(../images/loreal_landing_m_btn_bg.jpg) top right no-repeat;
+	text-transform: uppercase;
+	width: 337px;
+	height: 64px;
+	line-height: 64px;
+	display: block;
+	font-family:"HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+	font-size: 28px;
+	color: #000;
+	text-shadow: none;
+}
+#landing .textbox {
+	width: 340px;
+	margin: 30px auto;
+}
+#landing div span {
+	text-transform: uppercase;
+}
+#landing .text1 {
+	font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+	font-size: 31px;
+	color: #c34281;
+}
+#landing .text2 {
+	font-family: "HelveticaNeueW01-55Roma", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	color: #c34281;
+}
+#landing .text3 {
+	font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #c34281;
+}
+#landing .text4 {
+	font-family: "HelveticaNeueW01-55Roma", Helvetica, Arial, sans-serif;
+	font-size: 31px;
+	color: #fff;
+}
+#landing .text5 {
+	font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+	font-size: 43px;
+	color: #c34281;
+	line-height: 100%;
+}
+/* landing ends */
+
+/* colorwheel starts */
+#colour_selector {
+    background: url(../images/thank_you_mobile_m_logo.png) 50% 6% no-repeat;
+    padding: 120px 0px 120px 0px;
+}
+#colour_selector .textbox {
+    width: 370px;
+    margin: 20px auto 0px auto;
+    color: #c34281;
+    line-height: 250%;
+    text-transform: uppercase;
+}
+#colour_selector .text1 {
+	font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+    font-size: 31px;
+}
+#colour_selector .text2 {
+	font-family: "HelveticaNeueW01-55Roma", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+#colour_selector .text3 {
+	font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+#colour_selector .text4 {
+	font-family: "HelveticaNeueW01-55Roma", Helvetica, Arial, sans-serif;
+    font-size: 31px;
+    color: #ffffff;
+}
+#colour_selector .text5 {
+	font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+    font-size: 43px;
+}
+
+#colorwheel {
+    margin: 10px auto 0px auto;
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    width: 457px;
+    height: 457px;
+    z-index:5001;
+}
+#colorwheel span {
+  cursor: pointer;
+  position: absolute;
+  overflow:hidden;
+  top: 310px;
+  left: 420px;
+  width: 200px;
+  height: 70px;
+  -ms-transform-origin: -100px 50%;
+  -webkit-transform-origin: -100px 50%;
+  -moz-transform-origin: -100px 50%;
+  -o-transform-origin: -100px 50%;
+  transform-origin: -100px 50%;
+  opacity: 1;
+  z-index:5007;
+  border-radius: 50px 1px 1px 50px; /* top left, top right, bottom right, bottom left */;
+}
+#colorwheel span:hover, #colorwheel span:active {
+  opacity: 1;
+  border-radius: 50px 1px 1px 50px; /* top left, top right, bottom right, bottom left */;
+  border-style:solid;
+  border-color: #7f345a;
+  border-width: 2px;
+  z-index:5008;
+}
+
+#colorwheel .center {
+	background: url(../images/colour_wheel_center.png) center center no-repeat;
+    display: block;
+    width: 290px;
+    height: 290px;
+    position: relative;
+    top: 19%;
+    left: 50%;
+    margin: 0px 0px 0px -145px;
+    border-radius: 145px;
+    z-index:5009;
+}
+
+#colorwheel svg {
+    overflow: hidden !important;
+    position: absolute !important;
+    left: 3px!important;
+    top: 3px !important;
+    z-index: 5007;
+}
+
+#colorwheel .circle {
+    border-radius: 50%;
+    background: #6f5f57;
+    border: 10px solid #a9447e;
+    width: 445px;
+    height: 445px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    margin: 0px 0px 0px 0px;
+    z-index: 4995;
+    -ms-touch-action: none;
+}
+#circle_pointer {
+    border-radius: 0%;
+    /*border: 80px solid #000;*/
+    width: 455px;
+    height: 455px;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    margin: -294px 0px 0px -4px;
+    z-index: 5006;	/* width and height can be anything, as long as they're equal */
+    pointer-events: none;
+    -ms-touch-action: none;
+}
+
+#colorwheel .selection {
+}
+#colorwheel .selection {
+    position: absolute;
+    top: 6%;
+    left: 6%;
+    width: 401px;
+    height: 400px;
+    z-index:5011;
+	background: url(../images/selection_popup.png) center center no-repeat;
+}
+#colorwheel .close {
+	font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    color: #a9447e;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    position: absolute;
+    top: 17%;
+    left: 90%;
+    z-index: 6000;
+}
+#colorwheel .close {
+    cursor: hand;
+    cursor: pointer;
+}
+#colorwheel .packshot { 
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 154px;
+}
+#colorwheel .packshot img {
+    margin: -35px 0px 0px -43px;
+}
+
+#colorwheel .textbox2 { 
+    position: absolute;
+    top: 0px;
+    left: 155px;
+    width: 237px;
+    text-transform: uppercase;
+    padding: 50px 10px 0px 0px;
+}
+#colorwheel .text1 {
+	font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    color: #a9447e;
+    line-height: 50%;
+}
+#colorwheel .text2 {
+	font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    color: #a9447e;
+    line-height: 50%;
+}
+#colorwheel .text3 {
+	font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 200%;
+}
+#colorwheel .text4 {
+	font-family: "HelveticaNeueW01-55Roma", Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    color: #e3e3e3;
+    line-height: 125%;
+}
+#colorwheel .text5 {
+    margin: 0px 0px 0px 0px;
+}
+#colorwheel div input[type=button] {
+    position: absolute;
+    top: 250px;
+    left: 61px;
+	padding: 0px;
+	border: none;
+	border-radius: 0px;
+	background: url(../images/loreal_landing_m_btn_bg.jpg) top right no-repeat;
+	text-transform: uppercase;
+    width: 280px;
+	height: 64px;
+	line-height: 64px;
+	display: block;
+	font-family:"HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+	font-size: 28px;
+	color: #000;
+	text-shadow: none;
+}
+
+/* colorwheel ends */
+
+/* colorwheel 2 strts */
+#colorwheel2 {
+	background: url(../images/circles/circle_back.gif) top left no-repeat;
+	width: 451px;
+	height: 451px;
+	margin: 0px auto;
+}
+/* colorwheel 2 ends */
+.slice1:hover, .slice2:hover, .slice3:hover, .slice4:hover, .slice5:hover, .slice6:hover, .slice7:hover, .slice8:hover, .slice9:hover, .slice10:hover, .slice11:hover, .slice12:hover, .slice13:hover, .slice14:hover, .slice15:hover, .slice16:hover, .slice17:hover, .slice18:hover, .slice19:hover, .slice20:hover, .slice21:hover, .slice22:hover, .slice23:hover, .slice24:hover, .slice25:hover, .slice26:hover, .slice27:hover {
+    background: none;
+    background-position: top left;
+}
+.slice1:hover {
+    background: url(../images/circles/circle_back.gif)
+}
+
+/* form starts */
+#form {
+	padding-top: 57px;
+    padding-left: 5%;
+    padding-right: 5%;
+	background: url(../images/thank_you_mobile_m_logo.png) 50% 6% no-repeat;
+}
+
+#form .textbox {
+	width: 52%;
+}
+#form .textbox_main {
+    display: none;
+}
+#form .textbox span {
+    color: #c34281;
+    line-height: 110%;
+    text-transform: uppercase;
+}
+#form .text1 {
+	font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+    font-size: 32px;
+}
+#form .text2 {
+	font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+}
+#form .text3 {
+	font-family: "HelveticaNeueW01-55Roma", Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+#form .text4 {
+	font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+    font-size: 21px;
+}
+#form .text5 {
+	font-family: "HelveticaNeueW01-55Roma", Helvetica, Arial, sans-serif;
+    font-size: 31px;
+    letter-spacing: 1px;
+}
+#form .text6 {
+	font-family: "HelveticaNeueW01-55Roma", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+#form .packshot {
+    display: block;
+    width: 160px;
+    float: right;
+    padding: 0px 0px 0px 0px;
+    margin: -10px 20px 0px 0px;
+    height: 300px;
+}
+#form .bracelet {
+    position: relative;
+    bottom: 40px;
+    right: -40px;
+    display: block;
+    width: 135px;
+    height: 110px;
+}
+#form .bracelet img {
+    width: 135px;
+}
+
+#entrydetails {
+}
+/* form ends */
+
+/* thanks starts */
+#thanks {
+	padding: 57px 0px 0px 0px;
+}
+#thanks .packshot {
+    display: none;
+}
+#thanks .top {
+	background: url(../images/thank_you_mobile_m_logo.png) top center no-repeat;
+	padding: 85px 0px 0px 0px;
+    height: 100px;
+}
+#thanks .top h1 {
+	font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+	font-size: 64px;
+    line-height: 48px;
+	color: #c34281;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+#thanks .top h1 span {
+	font-family: "HelveticaNeueW01-55Roma", Helvetica, Arial, sans-serif;
+	font-size: 52px;
+	color: #b95184;
+}
+#thanks .textbox {
+	margin: 15px auto;
+}
+#thanks .textbox span {
+    text-transform: uppercase;
+}
+#thanks .text1 {
+	font-family: "HelveticaNeueW01-55Roma", Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+#thanks .text2 {
+	font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+    color: #a93970;
+}
+#thanks .text3 {
+	font-family: "HelveticaNeueW01-55Roma", Helvetica, Arial, sans-serif;
+    color: #d55e98;
+}
+#thanks div input[type=submit] {
+	margin: 30px auto;
+	padding: 0px;
+	border: none;
+	border-radius: 0px;
+	background: url(../images/thank_you_mobile_facebtn.jpg) top right no-repeat;
+	text-transform: uppercase;
+	width: 440px;
+	height: 82px;
+	line-height: 64px;
+	display: block;
+	font-family:"HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+	font-size: 28px;
+	color: #151515;
+	text-shadow: none;
+}
+#thanks .pinkbox {
+    /*width: 91.67%;*/
+    width: 92%;
+    margin: 0% 4%;
+	background: url(../images/thank_you_mobile_leather_bracelet.jpg) top right no-repeat #d55e98;
+    padding: 40px 0px 20px 0px;
+    margin-bottom: 20px;
+}
+#thanks .pinkbox h1 {
+	font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-size: 110px;
+    margin: 0px 20px 30px 20px;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+#thanks .pinkbox h1 span {
+    font-size: 32px;
+}
+#thanks .pinkbox p {
+	font-family: "HelveticaNeueW01-55Roma", Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-size: 18px;
+    margin: 20px 40px 0px 20px;
+    text-transform: uppercase;
+}
+#thanks .pinkbox p span {
+    color: #000;
+}
+/* thanks ends */
+
+/* footer starts */
+footer {
+	padding: 10px 0px;
+	text-transform: uppercase;
+	border-top: 1px solid #e030cb;
+}
+footer p {
+	font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+	font-size: 7px;
+	color: #9a9999;
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+}
+footer p a {
+	color: #9a9999;
+}
+/* footer ends */
+
+@media (min-width: 0.000em) and (max-width : 22.500em) {
+/* landing starts */
+	#landing {
+		height: 860px;
+		background: url(../images/loreal_landing_m_main.jpg) bottom left no-repeat;
+		background-size: contain;
+	}
+    #landing div {
+    }
+	#landing .win {
+		height: 105px;
+	}
+	#landing .textm {
+		height: 140px;
+	}
+	#landing div input[type=submit] {
+		margin: 15px auto;
+		width: 90%;
+	}
+	#landing .textbox {
+		width: 284px;
+		margin: 15px auto;
+	}
+	#landing .text1 {
+		font-size: 26px;
+	}
+	#landing .text2 {
+		font-size: 17px;
+	}
+	#landing .text3 {
+		font-size: 15px;
+	}
+	#landing .text4 {
+		font-size: 26px;
+	}
+	#landing .text5 {
+		font-size: 36px;
+	}
+/* landing ends */
+
+/* form starts */
+	#form .top {
+		height: 57px;
+	}
+	#form .textbox {
+		width: 284px;
+	}
+/* form ends */	
+	
+/* form starts */
+/* form ends */
+
+/* thanks starts */
+	#thanks .top {
+		height: 80px;
+	}
+    #thanks .top h1 {
+        font-size: 46px;
+        line-height: 38px;
+        text-shadow: 0px 1px 6px #333;
+    }
+    #thanks .top h1 span {
+        font-size: 38px;
+    }
+
+	#thanks .textbox {
+		width: 270px;
+	}
+    #thanks .text1 {
+    }
+    #thanks .text2 {
+    }
+    #thanks .text3 {
+    }
+
+    #thanks div input[type=submit] {
+        background-size: contain;
+        width: 300px;
+        height: 56px;
+        line-height: 56px;
+        font-size: 24px;
+    }
+/* thanks ends */
+
+}
+
+@media (min-width: 22.438em) and (max-width : 32.500em) {
+/* landing starts */
+	#landing {
+		background: url(../images/loreal_landing_m_main.jpg) bottom left no-repeat;
+		padding: 31px 0px 0px 0px;
+		height: 1196px;
+	}
+    #landing div {
+    }
+	#landing .win {
+		background: url(../images/loreal_landing_m_win.gif) top center no-repeat;
+		background-size:contain;
+		height: 148px;
+	}
+	#landing .textm {
+		background: url(../images/loreal_landing_m_text.gif) top center no-repeat;
+		background-size:contain;
+		height: 210px;
+	}
+/* landing ends */
+	
+/* form starts */
+	#thanks .top {
+        padding: 77px 0px 0px 0px;
+        height: 90px;
+	}
+	#thanks .textbox {
+	    width: 374px;
+        margin: 30px auto;
+	}
+        
+    #thanks .text1 {
+        font-size: 21px;
+        letter-spacing: 1px;
+    }
+    #thanks .text2 {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    #thanks .text3 {
+        font-size: 22px;
+        letter-spacing: 0px;
+    }
+/* form ends */
+}
+
+@media (min-width: 32.563em) {
+	#landing {
+		height: 778px;
+		background: url(../images/loreal_landing_m_main.png) bottom left no-repeat;
+	}
+    #landing div {
+        width: 360px;
+        margin: 0px auto;
+        margin-left: 41%;
+    }
+	#landing .win {
+		background: url(../images/loreal_landing_win.png) 0% 50% no-repeat;
+		background-size:contain;
+		height: 128px;
+        margin-left: 39%;
+	}
+	#landing .textm {
+		background: url(../images/loreal_landing_text.png) 0% 50% no-repeat;
+		background-size:contain;
+		height: 220px;
+        margin-left: 39%;
+	}
+    #landing .textbox {
+        margin-left: 42% !important;
+    }
+    #landing div input[type=submit] {
+    }
+
+    /* form starts */
+    #form .textbox {
+        display: none;
+    }
+    #form .textbox_main {
+        width: 710px;
+        display: block;
+        padding: 10px 0px 10px 0px;
+    }
+    #form .textbox_main span {
+    color: #c34281;
+    line-height: 110%;
+    text-transform: uppercase;
+    }
+    #form .text1 {
+	    font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+        font-size: 59px;
+    }
+    #form .text2 {
+	    font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+        font-size: 59px;
+    }
+    #form .text3 {
+	    font-family: "HelveticaNeueW01-55Roma", Helvetica, Arial, sans-serif;
+        font-size: 32px;
+    }
+ 
+    #form .packshot {
+        margin: 10px 60px 0px 0px;
+    }
+    #form .bracelet {
+        right: -80px;
+    }
+
+    #form .left {
+        width: 226px;
+        float: left;
+        margin: 0px 20px 0px 0px;
+    }
+    #form .right {
+        width: 226px;
+        float: left;
+    }
+    #form .left input, #form .right input {
+        width: 100%;
+    }
+    /* form ends */
+      
+    /* thanks starts */ 
+    #thanks .packshot {
+        display: block;
+        width: 180px;
+        float: right;
+        padding: 70px 0px 20px 0px;
+        margin: 0px 60px 0px 0px;
+    }
+    #thanks .bracelet {
+        position: relative;
+        bottom: 40px;
+        right: -40px;
+        display: block;
+        width: 180px;
+        height: 110px;
+    }
+    #thanks .bracelet img {
+        width: 160px;
+    }
+    
+	#thanks .textbox {
+	    width: 48.15%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 12%;
+	}
+        
+    #thanks .text1 {
+        font-size: 21px;
+        letter-spacing: 1px;
+    }
+    #thanks .text2 {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+    #thanks .text3 {
+        font-size: 22px;
+        letter-spacing: 0px;
+    }
+
+    #thanks div input[type=submit] {
+        width: 380px;
+        background: url(../images/thank_you_facebtn.jpg) top right no-repeat;
+        background-size: contain;
+        height: 62px;
+        line-height: 62px;
+    }
+    /* thanks ends */
+    	
+	footer p {
+		font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+		font-size: 7px;
+		color: #fff;
+		font-weight: normal;
+		text-align: center;
+	}
+    footer p a {
+		color: #fff;
+    }
+}

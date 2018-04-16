@@ -1,0 +1,54 @@
+<div id="divNav"> </div>
+<div class="clearfix"></div>
+<section id="form">
+    <form id="entrydetails">
+        <input id="backEntryForm" type="button" value="Back" />        
+        <div class="textbox_main">
+            <span class="text1">Enter your details</span><br />
+            <span class="text3">share your precious moment</span><br />
+            <span class="text5">to win your choice of bracelet</span>
+        </div>
+        <div class="packshot">
+            <img src="<%= model.get('imgSrc')%>" alt="<%= model.get('Colourname')%>" />
+            <div class="bracelet">
+                <img src="<%= model.get('braceletSrc')%>" alt="<%= model.get('braceletname')%>" />
+            </div>
+        </div>
+        <div class="textbox">
+            <span class="text1">Enter your</span><br />
+            <span class="text2">details</span<br />
+            <span class="text3">share your</span><br />
+            <span class="text4">precious moment</span><br />
+            <span class="text5">to win your</span><br />
+            <span class="text6">choice of bracelet</span>
+        </div>
+        <div class="clearfix"></div>
+        <div class="left">
+            <label>First Name:</label>
+            <div class="clearfix"></div>
+            <input class="input_full" id="name" type="text" name="name" value="" size="30" maxlength="80" />
+            <span class="name-help-block error-message hidden"></span>
+        </div>        
+        <div class="right">
+            <label>Last Name:</label>
+            <input class="input_full" id="surname" type="text" name="surname" value="" size="30" maxlength="80" />
+            <span class="surname-help-block error-message hidden"></span>
+        </div>
+        <label>Cellphone Number:</label>
+        <input class="input_full" id="phone" type="text" name="phone" value=""  size="30" maxlength="13" />
+        <span class="phone-help-block error-message hidden"></span>
+        <label>Email Address:</label>
+        <input class="input_full" id="email" type="text" name="email" value=""  size="30" maxlength="20" />
+        <span class="email-help-block error-message hidden"></span>
+        <label for="preciousmoment">Tell us about your precious moment: </label>
+        <textarea class="input_full" id="preciousmoment" name="preciousmoment" maxlength="140" placeholder="My precious moment..."></textarea>
+        <span class="preciousmoment-help-block error-message hidden"></span>
+        <label id="lblcount">140 Characters Remaining</label> <br/>
+        <input type="hidden" id="entrycount" name="entrycount" value="1"/><br/>
+        <input type="hidden" id="productId" name="productId" value="<%= model.get('AssetId')%>"/><br/>
+        <div class="clearfix"></div>
+        <label for="entrytcs"><input type="checkbox" id="entrytcs" name="entrytcs" value=""/>&nbsp; I agree to the Terms &amp; Conditions</label><br> 
+        <input id="submitEntryForm" type="submit" value="Submit" />
+        
+    </form>
+</section>

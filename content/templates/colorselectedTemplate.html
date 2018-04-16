@@ -1,0 +1,18 @@
+﻿
+<div id="colorSelection" class="selection">
+            <div class="close"id="closeSelection">X</div>
+            <div class="packshot"><img src="<%= model.get('imgSrc')%>" alt="Packshot" /></div>
+            <div class="textbox2">
+                <div class="text1">your</div><br />
+                <div class="text2">selection:</div><br />
+                <div class="text3"><%= model.get('Colourname')%></div>                
+                <div class="text4">by selecting this shade you stand a chance to win the <%= model.get('braceletname')%> Bracelet </div>
+                <div class="text5"><img src="images/logo_pandora.gif" /></div>
+            </div>
+            <div>
+                <a href="#entry/<%= model.get('AssetId')%>">
+                <input id="confirm_color" type="button" value="Next" />
+                    </a>
+            </div>
+        </div>
+       

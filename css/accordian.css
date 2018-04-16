@@ -1,0 +1,163 @@
+﻿@charset "utf-8";
+/* CSS Accordian Document */
+.ui-state-default .ui-icon, .ui-state-active .ui-icon, .ui-state-hover .ui-icon {
+    background-image: url(../images/arrows.png);
+}
+.ui-icon-circle-arrow-s {
+    background-position: 0px 0px;
+}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+    position: absolute;
+    left: 95%;
+    top: 50%;
+    margin-top: -8px;
+}
+.ui-icon {
+    width: 23px;
+    height: 16px;
+}
+/* accordian starts */
+#accordion {
+    background-color: #232424;
+}
+#accordion div {
+    padding: 0%;
+    height: auto !important;
+}
+#accordion div div {
+    height: 77px;
+    line-height: 77px;
+    cursor: pointer;
+    cursor: hand;
+}
+#accordion div div:hover {
+    opacity: 0.9;
+    -moz-opacity: 0.9;
+    -webkit-opacity: 0.9;
+    -o-opacity: 0.9;
+}
+#accordion div div p {
+    padding: 0% 3%;
+	font-family: "HelveticaNeueW01-55Roma", Helvetica, Arial, sans-serif;
+    color: #a8a8a8;
+    font-size: 22px;
+    text-shadow: 0px 0px 3px #000;
+}
+#accordion h3 {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    margin: 0em;
+    padding: 0em;
+    height: 114px;
+    line-height: 114px;    
+	font-family: "HelveticaNeueW01-75Bold", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    padding: 0% 3%;
+}
+/* black starts */
+#black {
+	background: url(../images/accordian_black.jpg) top left repeat-x;
+    color: #acabac;
+}
+#black_1 {
+    background-color: #4d4440;
+}
+#black_2 {
+    background-color: #2d2b2b;
+}
+/* black ends */
+/* brunette starts */
+#brunette {
+	background: url(../images/accordian_brunette.jpg) top left repeat-x;
+    color: #b3aba8;
+}
+#brunettes_3 {
+    background-color: #40342c;
+}
+#brunettes_4 {
+    background-color: #5d4235;
+}
+#brunettes_4_15 {
+    background-color: #7a655a;
+}
+#brunettes_4_3 {
+    background-color: #30221d;
+}
+#brunettes_5 {
+    background-color: #6d533f;
+}
+#brunettes_5_15 {
+    background-color: #655043;
+}
+#brunettes_5_3 {
+    background-color: #7d6344;
+}
+#brunettes_5_35 {
+    background-color: #9c7758;
+}
+#brunettes_6_13 {
+    background-color: #9b7560;
+}
+#brunettes_6_3 {
+    background-color: #582f32;
+}
+#brunettes_6_41 {
+    background-color: #6b483d;
+}
+/* brunette ends */
+/* red starts */
+#red {
+	background: url(../images/accordian_red.jpg) top left repeat-x;
+    color: #151515;
+}
+#red_3_61 {
+    background-color: #582f32;
+}
+#red_4_54 {
+    background-color: #6b483d;
+}
+#red_5_5 {
+    background-color: #56433b;
+}
+#red_5_62 {
+    background-color: #7e534d;
+}
+#red_6_66 {
+    background-color: #6c3539;
+}
+#red_5_65 {
+    background-color: #642d2b;
+}
+/* red ends */
+/* blonde starts */
+#blonde {
+	background: url(../images/accordian_blonde.jpg) top left repeat-x;
+    color: #151515;
+}
+#blonde_7 {
+    background-color: #836757;
+}
+#blonde_7_31 {
+    background-color: #8a7158;
+}
+#blonde_8 {
+    background-color: #998465;
+}
+#blonde_8_13 {
+    background-color: #c6a98a;
+}
+#blonde_8_3 {
+    background-color: #cbb192;
+}
+#blonde_9 {
+    background-color: #a0845a;
+}
+#blonde_9_1 {
+    background-color: #d0c2a6;
+}
+#blonde_10 {
+    background-color: #c4b9a2;
+}
+/* blonde ends */
+/* accordian ends */
